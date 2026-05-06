@@ -13,12 +13,12 @@ eduid_regex = r"^[a-zA-Z]+\.[a-zA-Z]+[0-9]*@sum\.ba$"
 email = input("Unesi e-mail: ")
 eduid = input("Unesi eduId: ")
 
-if re.match(email_regex, email):
+if re.fullmatch(email_regex, email):
     print("E-mail je ispravan.")
 else:
     print("E-mail nije ispravan.")
 
-if re.match(eduid_regex, eduid):
+if re.fullmatch(eduid_regex, eduid):
     print("eduId je ispravan.")
 else:
     print("eduId nije ispravan.")
