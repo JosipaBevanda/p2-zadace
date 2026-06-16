@@ -9,7 +9,7 @@ Pozvati treću funkciju prosljeđujući joj neku od prve dvije definirane funkci
 def pozdrav(ime):
     return "Pozdrav " + ime + "!"
 
-dobrodosao = lambda ime: "Dobrodošao " + ime + "!"
+dobrodosao = lambda ime: "Dobrodošla " + ime + "!"
 
 def ispisi_dobrodoslicu(funkcija):
     print(funkcija("Josipa"))
